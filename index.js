@@ -250,7 +250,7 @@ client.once("ready", () => {
     client.user.setPresence({
         activities: [
             {
-                name: "FPG Community Live",
+                name: "https://discord.gg/PCg3ZZcB6Y",
                 type: 1, // Streaming
                 url: "https://discord.gg/PCg3ZZcB6Y"
             }
