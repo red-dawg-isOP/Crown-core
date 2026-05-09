@@ -246,6 +246,17 @@ cron.schedule("0 12 * * 0", async () => {
 
 client.once("ready", () => {
     console.log(`${client.user.tag} is online.`);
+
+    client.user.setPresence({
+        activities: [
+            {
+                name: "FPG Community Live",
+                type: 1, // Streaming
+                url: "https://discord.gg/PCg3ZZcB6Y"
+            }
+        ],
+        status: "online"
+    });
 });
 
 client.login(process.env.BOT_TOKEN);
