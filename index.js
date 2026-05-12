@@ -250,9 +250,9 @@ client.once("ready", () => {
     client.user.setPresence({
         activities: [
             {
-                name: "https://discord.gg/PCg3ZZcB6Y",
+                name: "https://discord.gg/KWAMGXQrNm",
                 type: 1, // Streaming
-                url: "https://discord.gg/PCg3ZZcB6Y"
+                url: "https://discord.gg/KWAMGXQrNm"
             }
         ],
         status: "online"
